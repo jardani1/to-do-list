@@ -7,7 +7,33 @@ body {
     height: 100vh;
     margin: 0;
 }
-
+#filterButtons{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end
+    /* background-color: #f8f9fa; */
+}
+#outbt{
+    background-color: grey;
+    padding: 10px;
+}
+.task-text{
+    width: 150px;
+    background-color: yellow;
+    overflow-y: hidden;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-btn{
+    margin: 10px;
+}
+.delete-btn{
+    margin: 10px;
+}
 .container {
     background-color: #fff;
     padding: 20px;
@@ -38,6 +64,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-right: 12.5px;
 }
 
 button:hover {
